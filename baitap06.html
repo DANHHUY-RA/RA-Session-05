@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>baitap 061</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        margin: 40px;
+        width: 700px;
+      }
+      h3 {
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .input1 {
+        margin-top: 10px;
+        border: 2px solid lightgray;
+        width: 300px;
+        padding: 10px;
+      }
+      .input2 {
+        margin-top: 10px;
+        border: 2px solid lightgray;
+        width: 100%;
+        padding: 10px;
+      }
+      .input-email {
+        display: inline;
+        float: right;
+      }
+
+      button {
+        background-color: cadetblue;
+        color: white;
+        padding: 8px;
+        border-radius: 10px;
+      }
+      .cmt-block {
+        float: right;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Get in touch with us by filling contact from below</h3>
+      <table>
+        <input
+          class="input1"
+          type="text"
+          name=""
+          id="fullname"
+          placeholder="*Enter your full name"
+        />
+        <div class="input-email">
+          <input
+            class="input1"
+            type="email"
+            name=""
+            id="email"
+            placeholder="*Enter your email address"
+          />
+        </div>
+        <br />
+        <input
+          class="input2"
+          type="text"
+          name=""
+          id="subject"
+          placeholder="Enter your subject"
+        />
+        <br />
+        <textarea
+          class="input2"
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="*Your message here..."
+        ></textarea>
+        <!-- <section class="button-block"> -->
+        <button type="submit">Send message</button>
+        <!-- </section> -->
+        <section class="cmt-block">
+          <span>*Please fill all requied form field, thanks ! </span>
+        </section>
+      </table>
+    </div>
+  </body>
+</html>
